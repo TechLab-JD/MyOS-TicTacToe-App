@@ -1,0 +1,7 @@
+.tt { display: flex; flex-direction: column; align-items: center; gap: 12px; height: 100%; justify-content: center; }
+.tt-status { font-weight: 600; }
+.tt-board { display: grid; grid-template-columns: repeat(3, 72px); gap: 6px; }
+.tt-cell { width: 72px; height: 72px; border: 0; border-radius: 10px; background: var(--muted-bg, #2d2f31); font-size: 2rem; font-weight: 700; cursor: pointer; color: var(--text, #eee); }
+.tt-cell:hover:empty { background: #3a3f48; }
+.tt-cell.x { color: #4a90e2; } .tt-cell.o { color: #e74c3c; }
+.tt-new { padding: 8px 18px; border: 0; border-radius: 8px; background: var(--accent2, #4a90e2); color: #fff; cursor: pointer; font-weight: 600; }
